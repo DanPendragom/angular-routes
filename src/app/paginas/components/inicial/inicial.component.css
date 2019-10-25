@@ -1,0 +1,13 @@
+div{
+    margin-top: 10vh;
+    width: 35vw;
+}
+
+h1{
+    text-align: right;
+    font-weight: bolder;
+    color: rgb(10, 89, 126);
+}
+span{
+    font-weight: lighter;
+}
