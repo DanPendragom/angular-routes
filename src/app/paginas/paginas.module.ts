@@ -7,9 +7,19 @@ import { ContatoComponent } from './components/contato/contato.component';
 
 
 @NgModule({
-  declarations: [InicialComponent, QuemsomosComponent, ContatoComponent],
+  declarations: [
+    InicialComponent, 
+    QuemsomosComponent, 
+    ContatoComponent
+  ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [
+    InicialComponent,
+    QuemsomosComponent,
+    ContatoComponent,
+  ],
 })
+
 export class PaginasModule { }
