@@ -1,6 +1,14 @@
 div{
     margin-top: 10vh;
     width: 35vw;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px  rgba(0, 0, 0, 0.425);
+    cursor: pointer;
+}
+div:hover{
+    transition: 0.3s;
+    transform: scale(1.04);
 }
 
 h1{
@@ -8,6 +16,7 @@ h1{
     font-weight: bolder;
     color: rgb(10, 89, 126);
 }
-span{
-    font-weight: lighter;
+p{
+    font-size: 20px;
+    text-align: justify;
 }
